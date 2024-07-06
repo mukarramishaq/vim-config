@@ -1,0 +1,4 @@
+.vim/autoload
+.vim/tmp
+.vim/plugged
+.vim/pack

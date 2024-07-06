@@ -1,0 +1,26 @@
+{
+  "languageserver": {
+    "phpls": {
+      "command": "intelephense",
+      "args": ["--stdio"],
+      "filetypes": ["php"],
+      "initializationOptions": {
+        "storagePath": "~/.languageserver/intelephense"
+      },
+      "settings": {
+        "intelephense": {
+          "files": {
+            "maxSize": 5000000
+          },
+          "telemetry": {
+            "enabled": false
+          },
+          "format": {
+            "enable": true
+          }
+        }
+      }
+    }
+  }
+}
+
